@@ -1,8 +1,4 @@
-@import url
-(
-  "https://fonts.googleapis.com/css2? family = Poppins: wght @ 400; 500; 700; 900 & display = swap"
-);
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +6,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-image: linear-gradient(120deg, #9a84fa 0%, #20aef5 100%);
 }
 .title {
   position: relative;
@@ -19,12 +15,14 @@ body {
   font-size: 4rem;
   text-align: center;
   width: 100%;
-  color: #333;
+  color: #fff;
 }
 
 section {
-  background: url("./assets/model.jpg");
+  background: url("./assets/foto1.png") no-repeat;
   background-attachment: fixed;
+  background-size: auto;
+  background-position: center center;
   position: fixed;
   top: 0;
   left: 0;
@@ -38,9 +36,22 @@ section {
   margin-top: 200vh;
   background-color: #fff;
   padding: 100px;
+  background-color: rgba(255, 255, 255, 0.8);
 }
+
 .container h2 {
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #3b20b1;
+  padding: 5px;
+}
+
+a:hover {
+  text-decoration: underline;
 }
